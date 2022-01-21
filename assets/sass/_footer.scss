@@ -1,0 +1,24 @@
+.footer {
+    background-color: rgb(248, 239, 228);
+    height: 3rem;
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        margin: 0;
+        line-height: 3rem;
+    }
+}
+// Mobile
+@media only screen and (max-width: 739px) {
+}
+
+// Tablet
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+}
+
+// PC
+@media only screen and (min-width: 1024px) {
+}
